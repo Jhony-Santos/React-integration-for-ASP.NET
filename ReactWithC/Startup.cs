@@ -28,7 +28,7 @@ namespace ReactWithC
                 (Configuration.GetConnectionString("DefaultConnection")));
 
 
-
+            //services.AddMvc();
             services.AddControllersWithViews();
 
             // In production, the React files will be served from this directory
