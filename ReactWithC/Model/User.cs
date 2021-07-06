@@ -9,10 +9,10 @@ namespace ReactWithC.Model
     [Table("User")]
     public class User
     {
-        [Column("nome")]
+        [Column("Id")]
         public int Id { get; set; }
 
-        [Column("role")]
+        [Column("role")] 
         public String Role { get; set; }
 
     }

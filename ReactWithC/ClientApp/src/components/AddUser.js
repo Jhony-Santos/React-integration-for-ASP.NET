@@ -7,7 +7,7 @@ export class User {
     }
 }
 
-export class AddProduto extends Component {
+export class AddUser extends Component {
     constructor(props) {
         super(props);
         this.state = { title: "", user: new User(), loading: true };
@@ -39,7 +39,7 @@ export class AddProduto extends Component {
         return (
             <div>
                 <h1>{this.state.title}</h1>
-                <h3>Produto</h3>
+                <h3>User</h3>
                 {contents}
             </div>
         );
